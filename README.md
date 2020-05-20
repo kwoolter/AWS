@@ -17,7 +17,15 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-ug.pdf#putty
 
 # Installing stuff
 
-'sudo yum install python3'
+`sudo yum install python3`
+
+`python3 -m pip install --user virtualenv`
+`virtualenv myvenv`
+`source myvenv\bin\activate`
+`pip install numpy` etc
+
+
+`sudo yum install git`
 
 
 
